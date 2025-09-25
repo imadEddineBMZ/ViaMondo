@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { NAV_LINKS } from "@/constants";
+import Button  from "./button";
 
 const Navbar = () => {
   
@@ -11,7 +12,7 @@ const Navbar = () => {
       <Link href={"/"}>
 
         <Image  src="/hilink-logo.svg" alt="logo" width={74} height={29} />
-        
+
       </Link>
 
       <ul className="hidden h-full gap-12 lg:flex">
@@ -24,6 +25,22 @@ const Navbar = () => {
 
       </ul>
 
+      <div className="hidden lg:flexCenter text-gray-50">
+        <Button 
+          type="button" 
+          icon="/calendar.svg" 
+          text="Get Started" 
+          variant="btn_dark_green"
+        />
+      </div>
+
+      <Image
+        src="/menu.svg"
+        alt="menu"
+        width={32}
+        height={32}
+        className="cursor-pointer lg:hidden"
+      />
     </nav>
   )
 

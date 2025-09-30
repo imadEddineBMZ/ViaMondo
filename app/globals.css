@@ -9,10 +9,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 body {
   font-family: Inter;
+  /* width: 100%; */
 }
 
 @layer utilities {

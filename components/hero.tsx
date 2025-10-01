@@ -8,7 +8,7 @@ const Hero = () => {
     gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row border-2
     border-red-500"
     >
-      {/* <div className="hero-map" /> */}
+      <div className="hero-map " />
       <div className="relative z-100 flex flex-col flex-1 xl:w-1/2">
         <Image
           src="/camp.svg"
@@ -24,7 +24,7 @@ const Hero = () => {
           adventure around the world in just one app
         </p>
         <div className="flex gap-2 my-11">
-          <div className="flex items-centre gap-2">
+          <div className="flex items-center gap-2">
             {Array(5)
               .fill(0)
               .map((_, i) => (
@@ -56,7 +56,7 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="relative border-2 border-blue-500 flex flex-1 items-start">
+      <div className="relative flex flex-1 items-start">
         <div className="relative flex flex-col gap-8 w-[268px] py-8 px-7 bg-green-90 rounded-3xl">
           <div className="flex flex-col gap-1">
             <div className="flexBetween">

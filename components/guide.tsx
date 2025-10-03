@@ -2,14 +2,14 @@ import Image from "next/image";
 
 const Guide = () => {
   return (
-    <section className="flexCenter flex-col max-container padding-container border-2 border-red-500">
-      <div className=" w-full pb-24 border-2 border-blue-500">
+    <section className="flexCenter flex-col max-container padding-container">
+      <div className=" w-full pb-24">
         <Image src="/camp.svg" alt="camp" width={50} height={50} />
         <p className="Uppercase regular-18 -mt-1 mb-2 lg:mb-4 text-green-50">
           We are here for you
         </p>
       </div>
-      <div className="flex flex-wrap w-full justify-between gap-5 lg:gap-10 border-2 border-green-500">
+      <div className="flex flex-wrap w-full justify-between items-center gap-5 lg:gap-10">
         <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">
           Guide You to Easy Path
         </h2>

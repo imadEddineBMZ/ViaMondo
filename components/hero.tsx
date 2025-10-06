@@ -4,10 +4,10 @@ import Button from "./button";
 const Hero = () => {
   return (
     <section
-      className="max-container padding-container flex flex-col
+      className="relative max-container padding-container flex flex-col
     gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row"
     >
-      <div className="hero-map " />
+      <div className="absolute h-full w-full bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60" />
       <div className="relative z-100 flex flex-col flex-1 xl:w-1/2">
         <Image
           src="/camp.svg"
@@ -37,7 +37,7 @@ const Hero = () => {
                 />
               ))}
           </div>
-          <p className=" lg:bold-16 text-blue-70">
+          <p className=" lg:bold-16 text-blue-70 ">
             198k
             <span className="text-gray-50 cursor-pointer underline bold-5 ml-1">
               best reviews

@@ -15,7 +15,7 @@ export type buttonProps = {
 
 const Button = ({ type, icon, text, variant, full }: buttonProps) => {
   return (
-    <button type={type} className={`flexCenter gap-2 border rounded-full ${variant} ${full && 'w-full'}`}>
+    <button type={type} className={`flexCenter gap-2 border-2 border-white rounded-full ${variant} ${full && 'w-full'}`}>
       {icon && <Image src={icon} alt="icon" width={20} height={20} />}
       <label>{text}</label>
     </button>

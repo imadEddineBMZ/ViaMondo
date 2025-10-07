@@ -1,7 +1,8 @@
-import Hero from "@/components/hero";
-import Camp from "@/components/camp";
-import Guide from "@/components/guide";
+import Hero from "@/components/Hero";
+import Camp from "@/components/Camp";
+import Guide from "@/components/Guide";
 import Feature from "@/components/Feature";
+import GetApp from "@/components/GetApp";
 const app = () => {
   return (
     <>
@@ -9,6 +10,7 @@ const app = () => {
       <Camp />
       <Guide />
       <Feature />
+      <GetApp />
     </>
   );
 };

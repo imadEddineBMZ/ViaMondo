@@ -10,11 +10,12 @@ export type buttonProps = {
     | "btn_white_text"
     | "btn_white"
     | "btn_dark_green_outline";
+  full?: boolean;
 };
 
-const Button = ({ type, icon, text, variant }: buttonProps) => {
+const Button = ({ type, icon, text, variant, full }: buttonProps) => {
   return (
-    <button type={type} className={`flexCenter gap-2 rounded-full ${variant}`}>
+    <button type={type} className={`flexCenter gap-2 border rounded-full ${variant} ${full && 'w-full'}`}>
       {icon && <Image src={icon} alt="icon" width={20} height={20} />}
       <label>{text}</label>
     </button>

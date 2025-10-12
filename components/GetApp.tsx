@@ -9,7 +9,7 @@ const GetApp = () => {
           <p className="bold-16 lg:bold-20 text-gray-10">
             Available on iOS and Android
           </p>
-          <div className="flex flex-col gap-3 w-full md:flex-row whitespace-nowrap">
+          <div className="flex flex-col gap-3 flex-1 w-full md:flex-row whitespace-nowrap">
             <Button
               type="button"
               text="App Store"

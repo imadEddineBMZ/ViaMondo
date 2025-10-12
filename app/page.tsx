@@ -3,6 +3,7 @@ import Camp from "@/components/Camp";
 import Guide from "@/components/Guide";
 import Feature from "@/components/Feature";
 import GetApp from "@/components/GetApp";
+import Footer from "@/components/footer";
 const app = () => {
   return (
     <>
@@ -11,6 +12,7 @@ const app = () => {
       <Guide />
       <Feature />
       <GetApp />
+      <Footer />
     </>
   );
 };
